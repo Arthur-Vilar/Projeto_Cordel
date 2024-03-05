@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font_title: "Passion One", Verdana;
+    --font_padrao: "Sriracha", cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    background-color: black;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: var(--font_title);
+}
+
+h1{
+    font-size: 5vw;
+    color: white;
+    width: 100%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+a{
+    font-size: calc(12px + 1vw);
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    font-variant: small-caps;
+    margin-bottom: 10px;
+}
+
+#autor{
+    font-weight: 700;
+    font-variant: normal;
+}
+
+#box1 p{
+    margin: 10vw 4vw;
+    font-size: calc(1.5vw + 10px);
+    line-height: 1.5;
+}
+
+.line{
+    display: block;
+    margin-left: 2vw;
+}
+
+#box2{
+    background-image: url(../imagens/background001.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(28vw + 150px);
+}
+
+#box2 div{
+    padding-top: 8vw;
+    padding-left: 4vw;
+
+}
+
+#box2 p{
+    text-align: left;
+    height: 35%;
+    display: inline-block;
+    line-height: 1.5;
+    font-size: calc(1.5vw + 10px);
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    padding:7px 20px 7px 7px;
+}
+
+#box3 p{
+    margin: 10vw 4vw;
+    font-size: calc(1.5vw + 10px);
+    line-height: 1.5;
+}
+
+#box4{
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(28vw + 150px);
+}
+
+
+#box4 div{
+    padding-top: 8vw;
+    padding-left: 4vw;
+}
+
+#box4 p{
+    text-align: left;
+    height: 35%;
+    display: inline-block;
+    line-height: 1.5;
+    font-size: calc(1.5vw + 10px);
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    padding:7px 20px 7px 7px;
+}
+
+#box5 p{
+    margin: 5.5vw 4vw;
+    font-size: calc(1.5vw + 10px);
+    line-height: 1.5;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
