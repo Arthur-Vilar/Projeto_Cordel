@@ -16,7 +16,6 @@
 
 header{
     background-color: black;
-
     display: flex;
     align-content: center;
     justify-content: center;
@@ -34,7 +33,7 @@ h1{
     font-weight: 700;
 }
 
-a{
+header a{
     font-size: calc(12px + 1vw);
     text-decoration: none;
     color: white;
@@ -130,4 +129,16 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer p{
+    font-weight: 100;
+    font-variant: small-caps;
+    font-size: 1vw;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: calc(5px + 1vw);
 }
